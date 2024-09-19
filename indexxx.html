@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Mood</title>
+    <style>
+          table {
+            border-collapse: collapse; /* Gộp các đường viền thành 1 */
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div style="text-align:center;">
+        <img src="/Lesson_1/images/happy.jpg" alt="Happy Mood" width="400">
+
+        <h1>Happy Mood</h1>
+    </div>
+    <div class="content">
+        <div>
+            <h1>Current Courses</h1>
+            <ul>
+                <li>CSE 451 - HTML (<a href="https://www.w3schools.com/html/default.asp">Link</a>)</li>
+                <li>CSE 543 - Math</li>
+                <li>CSE 122 - Research</li>
+            </ul>
+        </div>
+        <div>
+            <h1>Hobbies</h1>
+            <ul>
+                <li>Games</li>
+                <li>Music</li>
+                <li>Movies</li>
+            </ul>
+        </div>
+        <div>
+            <h1 class="highlight-h1">Courses</h1>
+            
+            <table border="1" style="width: 50%;">
+               <tr>
+                    <th>Course Number</th>
+                    <th>Course Title</th>
+                    <th>Semester Taken</th>
+                </tr>
+                <tr>
+                    <th colspan="3">For Credit</th>
+                </tr>
+                <tr>
+                    <td style="color:blue"><b>6.81</b></td>
+                    <td style="color:red">User Interface Design</td>
+                    <td>Spring 2014</td>
+                </tr>
+                <tr>
+                    <td style="color:blue"><b>6.03</b></td>
+                    <td>Artificial Intelligence Algorithms</td>
+                    <td>Fall 2013</td>
+                </tr>
+                <tr>
+                    <td style="color:blue"><b>6.00</b></td>
+                    <td>Introduction to <b style="color:red">Algorithms</b></td>
+                    <td>Fall 2013</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Listener</th>
+                </tr>
+                <tr>
+                    <td style="color: blue;"><b>6.867</b></td>
+                    <td>Machine Learning</td>
+                    <td>Fall 2013</td>
+                </tr>
+                <tr>
+                    <td style="color:blue"></td>
+                    <td style="color:red">Database Systems</td>
+                    <td>Fall 2012</td>
+                </tr>
+            </table>
+        <div>
+            <div>
+                <h1>Submit information</h1>
+                <form action="" method="post" enctype="multipart/form-data">
+                    <label for="fullname">Full name:</label>
+                    <input type="text" id="fullname" name="fullname"><br><br>
+            
+                    <label>Gender:</label>
+                    <label class="gender-label">
+                        <input type="radio" name="gender" value="male"> Male
+                    </label>
+                    <label class="gender-label">
+                        <input type="radio" name="gender" value="female"> Female
+                    </label><br><br>
+            
+                    <label>Hobbies:</label>
+                    <label>
+                        <input type="checkbox" name="hobbies" value="music"> Music
+                    </label>
+                    <label>
+                        <input type="checkbox" name="hobbies" value="games"> Games
+                    </label>
+                    <label>
+                        <input type="checkbox" name="hobbies" value="movies"> Movies
+                    </label><br><br>
+            
+                    <label for="dob">Date of birth:</label>
+                    <input type="date" id="dob" name="dob"><br><br>
+            
+                    <label for="country">Country:</label>
+                    <select id="country" name="country">
+                        <option value="hanoi">Hanoi</option>
+                        <option value="saigon">Saigon</option>
+                        <option value="danang">Da Nang</option>
+                    </select><br><br>
+            
+                    <label for="picture">Picture:</label>
+                    <input type="file" id="picture" name="picture"><br><br>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+            
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password"><br><br>
+            
+                    <input type="submit" value="Submit">
+                </form>
+            </body>
+            </html>
+            </div>
+            <a href="../">Back</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
